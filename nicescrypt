@@ -1,0 +1,12 @@
+#made by aintfulman
+array=[]
+while(True):
+    a=int(input("Введите число"))
+    if (a==0):
+        break
+    array.append(a)
+summa=0
+for i in range(len(array)):
+    summa += array[i]
+z=summa/len(array)
+print(f"Ваш средний балл равен {round(z,2)}")
